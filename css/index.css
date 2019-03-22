@@ -192,6 +192,10 @@ header nav a{
 
 /* contact page */
 
+.contact-header-img {
+    margin-top: 20px;
+}
+
 .contact-title h2{
     text-align: center;
     padding-top: 30px;
