@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.top-img {
+    margin: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +119,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -125,6 +143,144 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* index box colors */
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+/* about page */
+
+.top-content-about {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+    line-height: 1.25;   
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.middle-content-about .textcontainer {
+    width: 48%;
+    padding: 10px 1%; 
+    margin: 10px 0 30px 0;
+    line-height: 1.25;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about .textcontainer h2 {
+    padding-top: 10px;
+}
+
+.middle-content-about .textcontainer button {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin: 20px 0 10px 0;
+}
+
+.middle-content-about .textcontainer button:hover {
+    background-color: black;
+    color: white;
+}
+.bottom-content-about {
+    padding: 0 20px 40px 20px;
+    line-height: 1.25;
+}
+
+/* contact page */
+
+.contact-header-img {
+    margin-top: 20px;
+}
+
+.contact-title h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+  
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+  
+input[type=submit]:hover {
+    background-color:darkgreen;
+    color: black;
+}
+  
+.contact-container {
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 0 20px 20px 20px;
+}
+  
+  
+  
+/* footer */
 
 footer {
     width: 100%;
