@@ -186,7 +186,52 @@ header nav a{
     line-height: 1.25;
 }
 
+/* contact page */
 
+.contact-title h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+  
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+  
+input[type=submit]:hover {
+    background-color:darkgreen;
+    color: black;
+}
+  
+.contact-container {
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 0 20px 20px 20px;
+}
+  
+  
+  
 /* footer */
 
 footer {
