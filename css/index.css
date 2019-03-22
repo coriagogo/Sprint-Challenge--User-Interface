@@ -181,6 +181,10 @@ header nav a{
     margin: 20px 0 10px 0;
 }
 
+.middle-content-about .textcontainer button:hover {
+    background-color: black;
+    color: white;
+}
 .bottom-content-about {
     padding: 0 20px 40px 20px;
     line-height: 1.25;
